@@ -1,0 +1,23 @@
+<div class="overlay">
+	<div class="container resume">
+		<div class="col-md-10 col-md-offset-1">
+
+			{% for categories in site.data.resume %}
+			{% assign items = categories %}
+			<div class="col-md-4 resume-category">
+				<p>{{ categories[0]}}</p>
+			</div>
+			<div class="col-md-8 resume-category">
+				{% for value in items[1]%}
+				<div class="col-md-5 rheading">
+					<p>{{value[0]}}</p>
+				</div>
+				<div class="col-md-6">
+					<p>{{value[1]}}</p>
+				</div>
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,71 @@
+body
+	overflow: hidden
+	background: #fff
+
+	> .container
+		height: 100vh
+
+.main
+	height: inherit
+	padding: 0px 50px
+	// background: pink
+
+	.canvas
+		position: relative
+		top: 50%
+		transform: translateY(-50%)
+
+		> div[class^='col']
+			border-bottom: 5px solid $border-color
+			margin-bottom: 30px
+			min-height: 120px
+
+	.img_wrap
+		height: 90px
+		width: 90px
+		border-radius: 100%
+		overflow: hidden
+		position: relative
+		left: 50%
+		margin: 0
+		padding: 0
+		transform: translateX(-50%)
+
+		img
+			width: 140%
+			margin-left: -10px
+
+	.title
+		font-family: $open-sans
+		h1
+			font-size: 4.5em
+			font-weight: 300
+		h2
+			font-size: 1em
+
+	.content
+		font-family: $roboto-slab
+		font-size: 1.3em
+		color: $heading-color
+		line-height: 1.6em
+
+		p
+			margin-bottom: 1em
+
+		a
+			color: $anchor-color
+
+
+	.row
+		margin-top: 50px
+		> div
+			font-family: $roboto-slab
+			font-size: 1.1em
+			font-weight: 600
+			padding: 0
+
+			.fa
+				margin-right: 5px
+
+			a
+				color: $heading-color

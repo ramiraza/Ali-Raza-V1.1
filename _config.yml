@@ -1,0 +1,9 @@
+
+title: Ali Raza | Full Stack Dev
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude:
+  - gulpfile.js
+  - node_modules
+  - .gitignore

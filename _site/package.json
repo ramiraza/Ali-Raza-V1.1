@@ -1,0 +1,20 @@
+{
+  "name": "test-env",
+  "version": "0.0.1",
+  "description": "A test playground to practice with html, css and js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "Ali Raza <ali120610@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  }
+}

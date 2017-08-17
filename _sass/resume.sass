@@ -1,0 +1,82 @@
+// --------- overlay test
+
+.overlay
+	width: 100%
+	height: 100vh
+	background: #fafafa
+	overflow: scroll
+	position: absolute
+	top: 0%
+	opacity: 0
+	z-index: -1
+	transition: opacity .3s ease-in-out, z-index .5s ease-out
+
+	.resume
+		position: relative
+		top: 100%
+		transition: top .3s ease-out
+
+		> div
+			background: #fff
+			margin-top: 90px
+			margin-bottom: 90px
+			border: 1px solid #E0E0E0
+			padding: 25px
+			font-family: $roboto-slab
+			font-size: .85em
+			color: $heading-color
+
+			.resume-category
+				min-height: 50px
+				margin: 7px 0
+				&:nth-child(odd)
+				&:nth-child(even)
+					border-left: 1px solid lightgray
+
+					.rheading
+						font-weight: bolder
+
+
+
+
+input[type="checkbox"]
+	display: none
+
+	+ label
+		position: absolute
+		top: 30px
+		right: 60px
+		padding: 10px
+		-webkit-user-select: none
+		user-select: none
+		transition: color .4s ease-out
+
+		span::after
+			content: $menu-icon
+			font-family: "FontAwesome"
+			font-size: 1.3em
+			cursor: pointer
+			speak: none
+			font-style: normal
+			font-weight: normal
+			font-variant: normal
+			text-transform: none
+			line-height: 1
+			-webkit-font-smoothing: antialiased
+			position: absolute
+			z-index: 3
+
+
+	&:checked
+
+		~ label span::after
+			content: $close-icon
+
+		~ .overlay
+			opacity: 1
+			z-index: 2
+
+			.container
+				top: 0%
+
+// --------------------
