@@ -1,12 +1,15 @@
 {
 	"Contact": {
 		"Website": "https://unsyllable.com",
-		"Email": "ali.raza@mail.com",
+		"Email": "<a href='mailto:ali.raza@gmail.com'>ali.raza@mail.com</a>",
 		"Phone": "(775) 636-0081"
 	},
 	"Location": {
 		"Address": "530 E Patriot Blvd.",
 		"City & Zip": "Reno, 89511",
 		"Region": "Nevada"
+	},
+	"Skills": {
+		"Front End": ["HTML", " " , "CSS"]
 	}
 }

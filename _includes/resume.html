@@ -1,19 +1,21 @@
 <div class="overlay">
 	<div class="container resume">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-md-8 col-md-offset-2 col-xs-12">
+			<h2>Richard Hendricks</h2>
+			<h3>{{ site.subtitle | remove: "| Data Analyst"}}</h3>
 
-			{% for categories in site.data.resume %}
-			{% assign items = categories %}
-			<div class="col-md-4 resume-category">
-				<p>{{ categories[0]}}</p>
+			{% for resume in site.data.resume %}
+			{% assign items = resume %}
+			<div class="col-xs-3 resume-category">
+				<p class="rheading">{{ resume[0]}}</p>
 			</div>
-			<div class="col-md-8 resume-category">
-				{% for value in items[1]%}
-				<div class="col-md-5 rheading">
-					<p>{{value[0]}}</p>
+			<div class="col-xs-9 resume-category">
+				{% for categories in resume[1]%}
+				<div class="col-xs-4">
+					<strong>{{categories[0]}}</strong>
 				</div>
-				<div class="col-md-6">
-					<p>{{value[1]}}</p>
+				<div class="col-xs-8">
+					<p>{{categories[1]}}</p>
 				</div>
 				{% endfor %}
 			</div>

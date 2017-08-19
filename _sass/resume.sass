@@ -11,30 +11,55 @@
 	z-index: -1
 	transition: opacity .3s ease-in-out, z-index .5s ease-out
 
-	.resume
-		position: relative
-		top: 100%
-		transition: top .3s ease-out
+.resume
+	position: relative
+	top: 100%
+	transition: top .3s ease-out
+	padding: 0px
 
-		> div
-			background: #fff
-			margin-top: 90px
-			margin-bottom: 90px
-			border: 1px solid #E0E0E0
-			padding: 25px
-			font-family: $roboto-slab
-			font-size: .85em
-			color: $heading-color
+	> div
+		background: #fff
+		// margin-top: 80px
+		// margin-bottom: 80px
+		border: 1px solid #E0E0E0
+		// padding: 15px
+		font-family: $roboto-slab
+		font-size: .85em
+		color: $heading-color
 
-			.resume-category
-				min-height: 50px
-				margin: 7px 0
-				&:nth-child(odd)
-				&:nth-child(even)
-					border-left: 1px solid lightgray
+		> h2, h3
+			text-align: center
+			margin: 5px
+		> h2
+			font-size: 1.5em
+			margin-top: 50px
+		> h3
+			font-size: 1em
+			padding: 0px
+			margin-bottom: 50px
 
-					.rheading
-						font-weight: bolder
+		.resume-category
+			margin-bottom: 20px
+
+			&:nth-child(even)
+				border-left: 1px solid lightgray
+
+		.rheading
+			font-size: 1.25em
+
+			&::first-letter
+				font-weight: 700
+
+
+			// .resume-category
+			// 	min-height: 50px
+			// 	margin: 7px 0
+			// 	&:nth-child(odd)
+			// 	&:nth-child(even)
+			// 		border-left: 1px solid lightgray
+			//
+			// 		.rheading
+			// 			font-weight: bolder
 
 
 

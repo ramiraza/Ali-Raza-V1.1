@@ -1,24 +1,49 @@
 
+// @media print
+//
+// 	.main, label
+// 		display: none
+//
+// 	.overlay
+// 		padding: 0px
+// 		.container
+// 			padding: 0px
+// 			margin: 0px
+// 			min-width: 8.5in
+// 			height: 11in
+// 			> .col-md-10
+// 				border: none
+// 				margin: 0
+//
+// 				p
+					font-size: 1.3em
+
 @media print
 
-	.main, label
+	h1
+		font-size: 24pt
+	h2
+		font-size: 14pt
+	.main,
+	label
 		display: none
 
 	.overlay
-		padding: 0px
-		.container
-			padding: 0px
-			margin: 0px
-			min-width: 8.5in
-			height: 11in
-			> .col-md-10
-				border: none
-				margin: 0
+		padding: 0
+		margin: 0
+		min-width: 8.5in
 
-				p
-					font-size: 1.3em
+	.resume
+		padding: 0
+		> div
+			border: none
+			margin-top: 0px
+			margin-bottom: 0px
 
-
+			h2
+				font-size: 28pt
+			h3
+				font-size: 14pt
 
 @media screen and (min-width: $screen-md-min) and (max-width: $screen-lg-min)
 	// ----- Home Page Styling
@@ -41,6 +66,7 @@
 		padding: 20px
 
 		.canvas
+
 			> div[class^='col']:nth-child(1)
 				border: none
 				min-height: 20px
