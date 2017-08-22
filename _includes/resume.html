@@ -1,25 +1,46 @@
 <div class="overlay">
 	<div class="container resume">
 		<div class="col-md-8 col-md-offset-2 col-xs-12">
-			<h2>Richard Hendricks</h2>
-			<h3>{{ site.subtitle | remove: "| Data Analyst"}}</h3>
+		{% for category in site.data.resume %}
 
-			{% for resume in site.data.resume %}
-			{% assign items = resume %}
-			<div class="col-xs-3 resume-category">
-				<p class="rheading">{{ resume[0]}}</p>
-			</div>
-			<div class="col-xs-9 resume-category">
-				{% for categories in resume[1]%}
-				<div class="col-xs-4">
-					<strong>{{categories[0]}}</strong>
-				</div>
-				<div class="col-xs-8">
-					<p>{{categories[1]}}</p>
-				</div>
-				{% endfor %}
-			</div>
-			{% endfor %}
+				{% if category[0] == 'title' %}
+
+					{% for title in category[1] %}
+						{%if title[1] == 'Ali Raza'%}
+							<h2>{{title[1]}}</h2>
+						{%elsif title[1] == 'Full Stack Developer'%}
+							<h3>{{title[1]}}</h3>
+						{% else %}
+						{% endif %}
+					{% endfor %}
+
+				{%elsif category[0] != 'Work Experience'%}
+					<div class="col-xs-3">
+						<p class={%if category[0] == 'Profiles'%} "hideprint" {%endif%}>{{ category[0] }}</p>
+					</div>
+					<div class="col-xs-9">
+						{% for subcategory in category[1] %}
+						<div class="col-xs-4 inner-left">
+							<p>{{subcategory[0]}}</p>
+						</div>
+						<div class="col-xs-8 inner-right">
+							<p>{{subcategory[1]}}</p>
+						</div>
+						{% endfor %}
+					</div>
+
+				{% else %}
+					<div class="col-xs-3">
+						<p>{{category[0] }}</p>
+					</div>
+					<div class="col-xs-9 desc">
+						{% for experience in category[1]%}
+						<p>{{experience[0]}} {{experience[1]}}</p>
+						{% endfor %}
+					</div>
+				{% endif %}
+
+		{% endfor %}
 		</div>
 	</div>
 </div>

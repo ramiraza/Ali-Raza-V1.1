@@ -1,6 +1,11 @@
+
 {
+	"title": {
+		"name": "Ali Raza",
+		"subtitle": "Full Stack Developer"
+	},
 	"Contact": {
-		"Website": "https://unsyllable.com",
+		"Website": "<a href='https://unsyllable.com' target='_blank'>https://unsyllable.com</a>",
 		"Email": "<a href='mailto:ali.raza@gmail.com'>ali.raza@mail.com</a>",
 		"Phone": "(775) 636-0081"
 	},
@@ -9,7 +14,36 @@
 		"City & Zip": "Reno, 89511",
 		"Region": "Nevada"
 	},
+	"Education": {
+		"Intermediate": "<strong>Superior Group of Colleges</strong> &mdash; Computer Science student in a 2 year intermediate computer science degree program, learnt about automation theory, logic design and system organization, computer languages and practical applications, including scientific computing and software management.",
+
+		"Matriculation": "<strong>Central Model High School</strong> &mdash; Competed in a local district for science and solar projects. Played for school cricket team against other local schools. Won a 2nd place trophy."
+	},
+	"Work Experience": {
+		"Risk Analyst I </br> <a href='https://blackhawknetwork.com' target='_blank'>Blackhawk Network</a> </br><span>&mdash; 2013 - Present &mdash;</span>":
+		"Responsible for managing all domestic and international investigations including; internal investigations, cyber security intrusions, identifying fraud rings, card blocking, SAR's, OFAC, subpoenas, search warrants, garnishments, seizure requests, and all other types of fraud incidents. Helped developing new and efficient procedures for fraud and high risk monitoring.",
+
+		"Client Relations Officer</br> <a href='https://printingblue.com' target='_blank'>Printing Blue Co.</a> </br><span>&mdash; 2011 - 2013 &mdash;</span>":
+		"Serviced new and existing clients for Printing Blue a subsidiary of Blue Group one of the industry leaders in Civil Engineering and Print Media in Pakistan, provided phone support to B2B and B2C clients, understanding creative brief, and breaking down customer problems into small parts and dealing with other departments throughout the company to meet the end goal.",
+
+		"Creative Manager</br> <a href='https://triqqle.com' target='_blank'>Triqqle Creatives</a> </br><span>&mdash; 2010 - 2013 &mdash;</span>":
+		"Co-Founded Triqqle in 2011 to provide creative solutions to small and medium size businesses, artists and nonprofits. Manages daily operations in a department responsible for creative works, project briefs, Oversees print production, graphic arts, and desktop publishing."
+	},
 	"Skills": {
-		"Front End": ["HTML", " " , "CSS"]
+		"Front End Development": "HTML &mdash; Jade, CSS &mdash; SASS, Javascript (Es6)",
+		"Computer Skills": "MacOS, MS Office, MySQL, Aquadata, Microstrategy"
+	},
+	"Profiles": {
+		"<a href='http://www.codepen.io/unsyllable' target='_blank'>Codepen</a>":
+		"<a href='https://www.linkedin.com/in/unsyllable/' target='_blank'>Linkedin</a>",
+		"<a href='https://github.com/unsyllable' target='_blank'>Github</a>":
+		"<a href='https://teamtreehouse.com/aliraza' target='_blank'>Treehouse</a>"
+	},
+	"Interests": {
+		"Music": "Hiking",
+		"Coding": "Parasailing"
+	},
+	"Reference": {
+		"Available upon request"
 	}
 }

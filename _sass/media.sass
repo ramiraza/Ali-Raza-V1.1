@@ -1,23 +1,4 @@
 
-// @media print
-//
-// 	.main, label
-// 		display: none
-//
-// 	.overlay
-// 		padding: 0px
-// 		.container
-// 			padding: 0px
-// 			margin: 0px
-// 			min-width: 8.5in
-// 			height: 11in
-// 			> .col-md-10
-// 				border: none
-// 				margin: 0
-//
-// 				p
-					font-size: 1.3em
-
 @media print
 
 	h1
@@ -39,11 +20,23 @@
 			border: none
 			margin-top: 0px
 			margin-bottom: 0px
+			padding: 15px
+
+			.hideprint
+				display: none
 
 			h2
 				font-size: 28pt
+				padding: 0
+				margin: 0
 			h3
 				font-size: 14pt
+				padding: 0
+
+			a[href]:after
+				display: none
+			p
+				font-size: 11pt
 
 @media screen and (min-width: $screen-md-min) and (max-width: $screen-lg-min)
 	// ----- Home Page Styling
