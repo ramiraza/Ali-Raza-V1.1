@@ -5,7 +5,6 @@
 	height: 100vh
 	background: #fafafa
 	overflow: scroll
-	-webkit-overflow-scrolling: touch
 	position: absolute
 	top: 0%
 	opacity: 0
@@ -41,6 +40,9 @@
 		> div
 			margin-top: 5px
 			margin-bottom: 5px
+
+			p
+				font-size: 1.2em
 
 			&:nth-child(even)
 				padding: 5px
@@ -85,6 +87,7 @@ input[type="checkbox"]
 		~ .overlay
 			opacity: 1
 			z-index: 2
+			-webkit-overflow-scrolling: touch
 
 			.container
 				top: 0%
