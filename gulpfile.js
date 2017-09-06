@@ -31,7 +31,10 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 
 
 gulp.task('watch', function() {
-	gulp.watch(['*.html', '*.yml','_includes/*.html', '_layouts/*.html', '_sass/*.sass', '_posts/*.md', 'assets/*.js', '_data/**.**'], ['rebuild']);
+	gulp.watch(
+		['*.html', '*.yml','_includes/*.html', '_layouts/*.html', '_sass/*.sass', '_posts/*.md', 'assets/**/**', '_data/**.**'], [
+		'rebuild']
+	);
 });
 
 gulp.task('default', ['browser-sync', 'watch'])
