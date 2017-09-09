@@ -30,8 +30,9 @@
 		"Co-Founded Triqqle in 2011 to provide creative solutions to small and medium size businesses, artists and nonprofits. Manages daily operations in a department responsible for creative works, project briefs, Oversees print production, graphic arts, and desktop publishing."
 	},
 	"Skills": {
-		"Front End Development": "HTML &mdash; Jade, CSS &mdash; SASS, Javascript (Es6)",
-		"Computer Skills": "MacOS, MS Office, MySQL, Aquadata, Microstrategy"
+		"Front End Development": "HTMl / CSS / Javascript &mdash; Jade / Sass / Bootstrap / EJS / Node.js / MongoDB / Gulp / Angular / React / MySQL ",
+		"Computer Skills": 
+		"MacOS - Terminal / Windows - CLI | Micorosft Office | Microstrategy | Aquadata | Service Now"
 	},
 	"Profiles": {
 		"<a href='http://www.codepen.io/unsyllable' target='_blank'>Codepen</a>":

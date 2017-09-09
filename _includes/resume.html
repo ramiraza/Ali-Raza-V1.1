@@ -1,6 +1,7 @@
+<!-- overlay page to display the resume upon button click -->
 <div class="overlay">
 	<div class="container resume">
-		<div class="col-md-10 col-md-offset-1 col-xs-12">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12">
 		{% for category in site.data.resume %}
 
 				{% if category[0] == 'title' %}
@@ -15,15 +16,15 @@
 					{% endfor %}
 
 				{%elsif category[0] != 'Work Experience'%}
-					<div class="col-xs-3">
+					<div class="col-xs-3 outer-left">
 						<p class={%if category[0] == 'Profiles'%} "hideprint" {%endif%}>{{ category[0] }}</p>
 					</div>
-					<div class="col-xs-9">
+					<div class="col-xs-9 outer-right">
 						{% for subcategory in category[1] %}
-						<div class="col-xs-4 inner-left">
+						<div class="col-xs-12 col-md-4 inner-left">
 							<p>{{subcategory[0]}}</p>
 						</div>
-						<div class="col-xs-8 inner-right">
+						<div class="col-xs-12 col-md-8 inner-right">
 							<p>{{subcategory[1]}}</p>
 						</div>
 						{% endfor %}
