@@ -17,7 +17,7 @@
 
 				{%elsif category[0] != 'Work Experience'%}
 					<div class="col-xs-3 outer-left">
-						<p class={%if category[0] == 'Profiles'%} "hideprint" {%endif%}>{{ category[0] }}</p>
+						<p>{{ category[0] }}</p>
 					</div>
 					<div class="col-xs-9 outer-right">
 						{% for subcategory in category[1] %}
