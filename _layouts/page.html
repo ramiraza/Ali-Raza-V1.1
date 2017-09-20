@@ -1,6 +1,13 @@
 ---
-layout: default
 ---
-{% include navigation.html %}
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+<body id="pageBody">
+  {% include navigation.html %}
 
-{{ content }}
+    {{ content }}
+
+  {% include scripts.html %}
+</body>
+</html>

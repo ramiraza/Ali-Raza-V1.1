@@ -1,3 +1,4 @@
+// Navigation
 
 #logo
   height: 50px
@@ -5,6 +6,7 @@
   border-radius: 100%
   overflow: hidden
   float: left
+  position: relative
   img
     height: 130%
     width: 130%
@@ -12,13 +14,22 @@
     right: 10px
 
 .navbar-default
+  height: 71px
   font-family: $roboto-slab
   font-weight: light
-  background: #fff
+  background: 
+    color: #fff
   border-radius: 0
+  border: none
+  border-bottom: 1px solid lightgray
   border-color: #E7E7E7
-  border: none none 1px none
   position: relative
+  margin-bottom: 0px
+
+  .container
+    background: #fff
+    height: inherit
+    border-bottom: inherit
 
 
 #logo, .navbar-right
@@ -27,7 +38,6 @@
 
 .dropdown-menu
   position: absolute
-  top: 120%
 
 
 button.navbar-toggle
@@ -39,11 +49,20 @@ button.navbar-toggle
 
 .navbar-brand
   font-family: $open-sans
+  
 
   h1
-    font-size: 1.3em
-    margin-left: 10px
+    font-size: 1.2em
+    margin-left: 15px
+    color: $heading-color
+    font-weight: 300
 
   h2
     font-size: .7em
-    margin-left: 10px
+    margin-left: 15px
+    color: $heading-color
+    font-weight: 300
+
+.navbar-collapse
+  border: none
+  background: #fff
