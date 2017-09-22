@@ -38,7 +38,7 @@
 			font-size: 2em
 			margin-top: 20px
 		> h3
-			font-size: 1em
+			font-size: 1.1em
 			padding: 0px
 			margin-bottom: 20px
 
@@ -48,6 +48,10 @@
 
 			p
 				font-size: 1.2em
+
+			em
+				color: darkgray
+				font-size: .8em
 
 			&:nth-child(even)
 				padding: 5px
@@ -68,20 +72,23 @@ input[type="checkbox"]
 		user-select: none
 		transition: color .4s ease-out
 
-		span::after
-			content: $menu-icon
-			font-family: "FontAwesome"
-			font-size: 1.3em
-			cursor: pointer
-			speak: none
-			font-style: normal
-			font-weight: normal
-			font-variant: normal
-			text-transform: none
-			line-height: 1
-			-webkit-font-smoothing: antialiased
+		span
 			position: absolute
-			z-index: 3
+			// background: red
+			&::after
+				content: $menu-icon
+				font-family: "FontAwesome"
+				font-size: 1.3em
+				cursor: pointer
+				speak: none
+				font-style: normal
+				font-weight: normal
+				font-variant: normal
+				text-transform: none
+				line-height: 1
+				-webkit-font-smoothing: antialiased
+				position: absolute
+				z-index: 3
 
 
 	&:checked

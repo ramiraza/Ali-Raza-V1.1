@@ -2,11 +2,11 @@
 {
 	"title": {
 		"name": "Ali Raza",
-		"subtitle": "Full Stack Developer"
+		"subtitle": "Data &amp; Risk/Fraud Analyst | Software Developer"
 	},
 	"Contact": {
 		"Website": "<a href='https://unsyllable.com' target='_blank'>https://unsyllable.com</a>",
-		"Email": "<a href='mailto:ali.raza@gmail.com'>ali.raza@mail.com</a>",
+		"Email": "<a href='mailto:ali120610@gmail.com'>ali120610@gmail.com</a>",
 		"Phone": "(775) 636-0081"
 	},
 	"Location": {
@@ -15,22 +15,22 @@
 		"Region": "Nevada"
 	},
 	"Education": {
-		"Intermediate": "<strong>Superior Group of Colleges</strong> &mdash; Computer Science student in a 2 year intermediate computer science degree program, learnt about automation theory, logic design and system organization, computer languages and practical applications, including scientific computing and software management.",
+		"Intermediate <em>equivalent of associates degree</em>": "<strong>Superior Group of Colleges</strong> &mdash; A 2 year intermediate degree program in computer science & computer technology, learnt about automation theory, logic design and system organization, computer languages and practical applications, including scientific computing and e-commerce.",
 
-		"Matriculation": "<strong>Central Model High School</strong> &mdash; Competed in a local district for science and solar projects. Played for school cricket team against other local schools. Won a 2nd place trophy."
+		"Matriculation <em>equivalent of High School diploma</em>": "<strong>Central Model High School</strong> &mdash; Competed in a local district for science and solar projects. Played for school cricket team against other local schools. Won a 2nd place trophy."
 	},
 	"Work Experience": {
 		"Risk Analyst I </br> <a href='https://blackhawknetwork.com' target='_blank'>Blackhawk Network</a> </br><span> 2013 &mdash; Present &mdash;</span>":
-		"Responsible for managing all domestic and international investigations including; internal investigations, cyber security intrusions, identifying fraud rings, card blocking, SAR's, OFAC, subpoenas, search warrants, garnishments, seizure requests, and all other types of fraud incidents. Helped developing new and efficient procedures for fraud and high risk monitoring.",
+		"Provide AML/BSA support to maintain a solid compliance and risk management program. Liaison to various government and law enforcement agencies to assist with investigations into fraud, identity theft, victim assisted fraud and money laundering. Monitor special designated nationals in compliance with Office of Foreign Asset Control and Special Designated Nationals list managed by US Treasury. <br>Responsible for managing all domestic and international investigations including; internal investigations, cyber security intrusions, identifying fraud rings, card blocking, SAR's, OFAC, subpoenas, search warrants, garnishments, seizure requests, and all other types of fraud incidents. Helped developing new and efficient procedures for fraud and high risk monitoring.",
 
 		"Client Relations Officer</br> <a href='https://printingblue.com' target='_blank'>Printing Blue Co.</a> </br><span>2011 &mdash; 2013 &mdash;</span>":
 		"Serviced new and existing clients for Printing Blue a subsidiary of Blue Group one of the industry leaders in Civil Engineering and Print Media in Pakistan, provided phone support to B2B and B2C clients, understanding creative brief, and breaking down customer problems into small parts and dealing with other departments throughout the company to meet the end goal.",
 
 		"Creative Manager</br> <a href='https://triqqle.com' target='_blank'>Triqqle Creatives</a> </br><span>2010 &mdash; 2013 &mdash;</span>":
-		"Co-Founded Triqqle in 2011 to provide creative solutions to small and medium size businesses, artists and nonprofits. Manages daily operations in a department responsible for creative works, project briefs, Oversees print production, graphic arts, and desktop publishing."
+		"Co-Founded Triqqle in 2011 to provide creative solutions to small size businesses, artists and nonprofits. Working  daily operations in a department responsible for creative works, project briefs, Oversees print production, graphic arts, and desktop publishing."
 	},
 	"Skills": {
-		"Front End Development": "HTMl / CSS / Javascript &mdash; Jade / Sass / Bootstrap / EJS / Node.js / MongoDB / Gulp / Angular / React / MySQL ",
+		"Front End Development": "HTMl / CSS / Javascript &mdash; Jade / Sass / Bootstrap / EJS / Node.js / MongoDB / Gulp / Angular / React / MySQL (Netezza) ",
 		"Computer Skills": 
 		"MacOS - Terminal / Windows - CLI | Micorosft Office | Microstrategy | Aquadata | Service Now"
 	},
