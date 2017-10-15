@@ -8,15 +8,32 @@ $screen-lg-min: 1199px
 // ---------  fonts
 $open-sans: 'Open Sans', sans-serif
 $roboto-slab: 'Roboto Slab', serif
+$montserrat: Montserrat, sans-serif
 
 
 // ---------  variables
 $border-color: #ECF0F1
 $heading-color: #2C3E50
-$anchor-color: #F14C75
-$color: $anchor-color
+$cherry-red: #F14C75
+$color: $cherry-red
 $menu-icon: "\f0c9"
 $close-icon: "\f00d"
+$hover-white: white
+$hover-black: lighten(black, 50%)
+$transparent: rgba(0,0,0,0)
+$bright-blue: #21ADE5
+$opace-color: rgba(255,255,255,.1)
+
+// ----------- mixins
+
+=clearfix
+	&:before, &:after
+		content: ''
+		display: table
+	&:after
+		clear: both
+
+// ----------- base styling
 
 body
 	// display: none
@@ -40,3 +57,123 @@ h1, h2
 	img
 		width: 140%
 		margin-left: -10px
+
+
+// // about page styling
+
+// #pageBody
+//   // background: #F3F7F8
+//   // height: 2000px
+
+// .jumbotron
+//   height: 92vh
+//   width: 100%
+//   background: 
+//     image: linear-gradient(lightblue, transparent 60%), linear-gradient(0deg, white, transparent 100%), url(/assets/img/hero3.jpg)
+//     color: lightgray
+//     repeat: no-repeat
+//     size: conver
+//     position: center
+//     attachment: fixed
+//   margin-bottom: 0px
+
+//   text-align: center
+
+//   h1, h2
+//     font-family: $open-sans
+//     font-weight: 300
+
+//   h1
+//     margin-top: 150px
+//     font-size: 6em
+  
+//   h2
+//     padding: 5px
+//     font-size: 1.4em
+//     font-style: italic
+//     background:
+//       color: rgba(243, 247, 248, 0.25)
+//     display: inline-block
+//     padding: 15px
+
+//   p
+//     font-size: 1.2em
+//     margin-top: 20px
+
+//   // img
+//   //   width: 50px
+//   //   margin-top: 100px
+//   //   position: absolute
+//   //   bottom: 40px
+//   //   left: 50%
+//   //   margin-left: -25px
+
+
+// .container-anim
+//   position: absolute
+//   width: 24px
+//   height: 24px
+//   left: 50%
+//   margin-left: -14px
+//   bottom: 80px
+
+
+// .chevron
+//   cursor: pointer
+//   position: absolute
+//   width: 28px
+//   height: 8px
+//   opacity: 0
+//   transform: scale3d(0.5, 0.5, 0.5)
+//   animation: move 3s ease-out infinite
+//   &:first-child
+//     animation: move 3s ease-out 1s infinite
+//   &:nth-child(2)
+//     animation: move 3s ease-out 2s infinite
+//   &:before, &:after
+//     content: ' '
+//     position: absolute
+//     top: 0
+//     height: 100%
+//     width: 51%
+//     background: rgba(0,0,0,.5)
+//   &:before
+//     left: 0
+//     transform: skew(0deg, 30deg)
+//   &:after
+//     right: 0
+//     width: 50%
+//     transform: skew(0deg, -30deg)
+
+// @keyframes move
+//   25%
+//     opacity: 1
+
+//   33%
+//     opacity: 1
+//     transform: translateY(30px)
+
+//   67%
+//     opacity: 1
+//     transform: translateY(40px)
+
+//   100%
+//     opacity: 0
+//     transform: translateY(55px) scale3d(0.5, 0.5, 0.5)
+
+
+// .text
+//   display: block
+//   margin-top: 75px
+//   margin-left: -30px
+//   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif
+//   font-size: 12px
+//   color: black
+//   text-transform: uppercase
+//   white-space: nowrap
+//   opacity: .25
+//   animation: pulse 2s linear alternate infinite
+
+// @keyframes pulse
+//   to
+//     opacity: 1

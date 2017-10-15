@@ -1,72 +1,137 @@
-// Navigation
-
-#logo
-  height: 50px
-  width: 50px
-  border-radius: 100%
-  overflow: hidden
-  float: left
-  position: relative
-  img
-    height: 130%
-    width: 130%
-    position: relative
-    right: 10px
 
 .navbar-default
-  height: 71px
-  font-family: $roboto-slab
-  font-weight: light
-  background: 
-    color: #fff
-  border-radius: 0
-  border: none
-  border-bottom: 1px solid lightgray
-  border-color: #E7E7E7
-  position: relative
+  -webkit-font-smoothing: antialiased
+  background-color: $transparent
   margin-bottom: 0px
-
-  .container
-    background: #fff
-    height: inherit
-    border-bottom: inherit
-
-
-#logo, .navbar-right
-  margin: 10px 0
-
-
-.dropdown-menu
-  position: absolute
-
-
-button.navbar-toggle
-  margin-top: 20px
-  border-radius: 0
-  border: none
-  &:hover, &:active, &:focus
-    background: none !important
-
-.navbar-brand
-  font-family: $open-sans
+  padding:
+    top: 40px
+    bottom: 40px
+  border:
+    color: $transparent
+  transition: all .3s ease-in-out
   
+  .container
+    padding: 0 15px
+  
+  .navbar-brand
+    color: white
+    font:
+      family: $montserrat
+    transition: all .3s ease-in-out
+    
+    span
+      margin-left: 2px
 
-  h1
-    font-size: 1.2em
-    margin-left: 15px
-    color: $heading-color
-    font-weight: 300
+  .navbar-nav
+    font:
+      family: $roboto-slab
+    text-transform: capitalize
+    > li > a
+      color: white
+      background: none
+      &:hover, &:focus
+        color: $hover-white
+        text-decoration: underline
+        background: $opace-color
 
-  h2
-    font-size: .7em
-    margin-left: 15px
-    color: $heading-color
-    font-weight: 300
+    > li.active > a
+      color: white
+      font-weight: 700
+      background: none
+      &:hover
+        color: $hover-white
 
-.navbar-collapse
-  border: none
-  background: #fff
+    > .active > a
+      &:hover
+        background: none
+    
+    > .open > a
+      color: white
+      background: none
+      &:focus, &:hover
+        color: $hover-white
+        background: none
 
-.navbar-nav li.active a
-  background: none !important
-  font-weight: bold
+  #logo
+    visibility: hidden
+    position: absolute
+    height: 30px
+    width: 30px
+    float: left
+    border:
+      radius: 100%
+    overflow: hidden
+    margin:
+      right: 0px
+      top: 10px
+    transition: visibiltiy 800 ease-out
+    img
+      height: 150%
+      width: 150%
+      margin-left: -10px
+  .dropdown-menu
+    border-radius: 5px !important
+    padding-bottom: 10px
+    > li:hover
+      background: $opace-color
+
+
+
+// *** on scroll navigation bar ***
+// ********************************
+
+.navScroll
+  height: initial
+  background-color: white
+  margin-bottom: 0px
+  padding:
+    top: 0px
+    bottom: 0px
+  border:
+    color: none
+  transition: all .3s ease-in-out
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1)
+  
+  .container
+    padding: 0 15px
+  
+  .navbar-brand
+    color: black
+    padding:
+      left: 60px
+    
+    span
+      color: $bright-blue
+
+  .navbar-nav
+    > li > a
+      color: black
+      background: none
+      &:hover, &:focus
+        color: $hover-black
+        text-decoration: none
+        background: rgba(200,200,200, .2)
+    
+    > li.active > a
+      color: black
+      font-weight: 700
+      background: none
+      &:hover
+        color: $hover-black
+
+    > .active > a
+      &:hover
+        background: none
+    
+    > .open > a
+      color: black
+      &:focus, &:hover
+        color: $hover-black
+        background: none
+  #logo
+    visibility: visible
+  .dropdown-menu
+    margin-top: 5px !important
+    padding-bottom: 10px
+    > li:hover
+      background: rgba(200,200,200, .2)

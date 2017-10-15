@@ -41,6 +41,9 @@
 
 			a[href]:after
 				display: none
+
+			a
+				// font-weight: bold
 			p
 				font-size: 11pt
 
@@ -104,17 +107,59 @@
 			.desc
 				padding-left: 18px
 
+	// ******* navigation styling
+
+	.navbar-default
+		padding: 0px
+		border: none
+		.container
+			padding: 0px 15px
+
+			button.navbar-toggle
+				border: none
+				span.icon-bar
+					background-color: white
+				&:hover, &:focus
+					background: none
+		.navbar-collapse
+			border-color: rgba(0,0,0,0)
+		.navbar-collapse
+			background: $opace-color
+		.dropdown-menu
+			> li > a
+				color: white !important
+			.divider
+				background-color: $opace-color !important
+				height: 1px
 	
-	// navigation small
+	.navScroll
+		padding:
+			top: 10px
+			bottom: 10px
+	.navScroll .container
+		button.navbar-toggle
+			border: none
+			span.icon-bar
+				background-color: $heading-color
+			&:hover, &:focus
+				background: none
+		.navbar-collapse
+			border-color: #e5e5e5
+		.dropdown-menu
+			padding-bottom: 0px !important
+			margin-bottom: 0px !important
+			> li > a
+				color: black !important
+			.divider
+				background-color: #E5E5E5 !important
 
-	#logo
-		display: none
+		#logo
+			margin:
+				left: 15px
 
-	.navbar-brand
+	// about page styling ---------------------------------
 
-		h1, h2
-			margin-left: 0px
-
-	.navbar-collapse
-		margin-top: 11px
-		border-bottom: 1px solid
+	.jumbotron
+		p
+			max-width: 90%
+			text-align: center

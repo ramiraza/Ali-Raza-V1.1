@@ -2,12 +2,12 @@
 {
 	"title": {
 		"name": "Ali Raza",
-		"subtitle": "Data &amp; Risk/Fraud Analyst | Software Developer"
+		"subtitle": "Full Stack Developer"
 	},
 	"Contact": {
 		"Website": "<a href='https://unsyllable.com' target='_blank'>https://unsyllable.com</a>",
 		"Email": "<a href='mailto:ali120610@gmail.com'>ali120610@gmail.com</a>",
-		"Phone": "(775) 636-0081"
+		"Phone": "<a href='tel:7756360081'>(775) 636-0081</a>"
 	},
 	"Location": {
 		"Address": "530 E Patriot Blvd.",
@@ -36,9 +36,9 @@
 	},
 	"Profiles": {
 		"<a href='http://www.codepen.io/unsyllable' target='_blank'>Codepen</a>":
-		"<a href='https://www.linkedin.com/in/unsyllable/' target='_blank'>Linkedin</a>",
+			"<a href='https://www.linkedin.com/in/unsyllable/' target='_blank'>Linkedin</a>",
 		"<a href='https://github.com/unsyllable' target='_blank'>Github</a>":
-		"<a href='https://teamtreehouse.com/aliraza' target='_blank'>Treehouse</a>"
+			"<a href='https://teamtreehouse.com/aliraza' target='_blank'>Treehouse</a>"
 	},
 	"Interests": {
 		"Music": "Hiking",

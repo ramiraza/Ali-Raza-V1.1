@@ -20,11 +20,12 @@
 
 	> div
 		background: #fff
-		margin-top: 80px
+		margin-top: 150px
 		margin-bottom: 80px
 		border: 1px solid #E0E0E0
-		font-family: $roboto-slab
-		font-size: .75em
+		font: 
+			family: $roboto-slab
+			size: 1em
 		color: $heading-color
 		padding-bottom: 10px
 		
@@ -38,7 +39,7 @@
 			font-size: 2em
 			margin-top: 20px
 		> h3
-			font-size: 1.1em
+			font-size: 1em
 			padding: 0px
 			margin-bottom: 20px
 
@@ -47,11 +48,13 @@
 			margin-bottom: 10px
 
 			p
-				font-size: 1.2em
+				// font-size: 1.2em
 
 			em
 				color: darkgray
 				font-size: .8em
+				font-weight: 400
+				display: none
 
 			&:nth-child(even)
 				padding: 5px

@@ -1,4 +1,5 @@
-
+// no need of sass modules if you're using new version of Jekyll
+// it comes built in with sass-lang support and it is much faster, also you can utilize profile option in .config.yml file, see Jekyll documentation 
 const gulp 					= require('gulp');
 const browserSync 	= require('browser-sync');
 const gutil					= require('gulp-util');

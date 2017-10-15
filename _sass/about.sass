@@ -1,34 +1,48 @@
-// about page styling
+// ********** ABOUT PAGE STYLING *************
 
-#pageBody
-  // background: #F3F7F8
-  height: 2000px
-
-.jumbotron
-  height: 92vh
-  width: 100%
+.about_me
+  height: 100vh
   background: 
-    image: linear-gradient(lightblue, transparent 60%), linear-gradient(0deg, #FFF, transparent 90%), url(/assets/img/hero3.jpg)
-    color: lightgray
+    image: linear-gradient($bright-blue,transparent 70%), linear-gradient(0deg, #fff, transparent 90%), url('../../assets/img/lake_tahoe.jpg')
+    color: $bright-blue
+    position: center center
     repeat: no-repeat
-    size: conver
-    position: center
-    attachment: fixed
-
+    size: cover
+  margin:
+    bottom: 0px
   text-align: center
-
-  h1, h2
-    font-family: $open-sans
-    font-weight: 300
-
-  h1
-    margin-top: 200px
+  padding-top: 300px
   
+  h1
+    font:
+      family: $open-sans
   h2
-    padding: 5px
-    font-size: 1.5em
-    margin-top: 10px
+    display: inline-block
+    margin-top: 20px
+    background:
+      color: $opace-color
+    font:
+      family: $roboto-slab
+      style: italic
+      size: 1.5em
+    padding: 5px 10px
 
-  img
-    width: 50px
-    margin-top: 100px
+  p
+    display: block
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    padding: 10px
+    margin-top: 20px
+    font:
+      family: $roboto-slab
+      size: 1.1em
+      weight: 400
+    max-width: 45%
+    text-align: justify
+
+
+.whatIDo
+  height: 100vh
+  .container
+    height: inherit
